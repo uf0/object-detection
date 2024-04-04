@@ -35,5 +35,5 @@
     node images-cropping.js
     ```
 
-4. You can find the resutls in the generated `output` folder
+4. You can find the results in the generated `output` folder
 
