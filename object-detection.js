@@ -21,7 +21,7 @@ for (const imageFileName of images) {
     const output = await detector(url);
     const lines = output.map(d => {
         const { xmax, xmin, ymax, ymin } = d.box
-        const out = { ...d, xmax, xmin, ymax, ymin, mage: imageFileName }
+        const out = { ...d, xmax, xmin, ymax, ymin, image: imageFileName }
         delete out.box
         return out
     });
